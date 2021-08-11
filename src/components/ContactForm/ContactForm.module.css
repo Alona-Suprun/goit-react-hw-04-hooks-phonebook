@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: #29a6af;
+    font-size: 26px;
+    font-weight: 700;
+}
+.input {
+  border-radius: 5px;
+  border: 2px solid #29a6af;
+  padding: 5px;
+  
+}
+.input::placeholder{
+  color: orange;
+}
